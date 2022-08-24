@@ -26,12 +26,21 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   font-family: 'Luckiest Guy', cursive;
 }
 
-h1 {
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+.title {
   font-size: 6rem;
+  margin-bottom: 3rem;
 }
 
 .underline {
@@ -49,17 +58,9 @@ h1 {
   z-index: -1;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0 3rem;
-}
 .randomImg {
   max-width: 45rem;
-  margin: 3rem 0;
+  margin-bottom: 3rem;
   font-size: 1.7rem;
 }
 
