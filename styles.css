@@ -13,13 +13,6 @@ html {
   height: 100%;
 }
 
-img {
-  max-width: 100%;
-  max-height: 50rem;
-  border-radius: 5px;
-  box-shadow: 10px 10px 10px #00000050;
-}
-
 body {
   background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/country-quilt.png');
   display: flex;
@@ -62,6 +55,12 @@ body {
   max-width: 45rem;
   margin-bottom: 3rem;
   font-size: 1.7rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #00000050;
 }
 
 .btn {
